@@ -13,7 +13,11 @@ class ViewController: UIViewController {
     let message = "Hello Git!"
     
     override func viewDidLoad() {
+        func reverse(text: String) -> String {
+            return String(text.reversed())
+        }
         super.viewDidLoad()
+        print(reverse(text: "stressed"))
         print(message)
         
        
